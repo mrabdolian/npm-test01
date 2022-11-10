@@ -2,10 +2,13 @@ name: Node.js Package
 
 on:
   push:
-    branches: [main]
-    tags: [v*]
+    branches:
+      - main
+    paths: 
+      - '**.scss'
   pull_request:
-    branches: [main]
+    branches: 
+      - main
 
 jobs:
   release:
