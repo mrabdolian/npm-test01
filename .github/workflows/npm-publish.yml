@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - main
-    paths: 
+    paths:
       - '**.scss'
   pull_request:
-    branches: 
+    branches:
       - main
 
 jobs:
